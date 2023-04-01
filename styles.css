@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+body{
+    background-color: rgb(214, 214, 214);
+}
+.container{
+    margin: 50px 150px;
+    background-color: #fff;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.sidebar{
+    height: 100% ;
+    width: 45% !important;
+    position: relatve;
+    background-color: rgb(88, 81, 84);
+    padding: 50px;
+    color: #fff;
+}
+
+.img-box{
+    position: relative;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+
+    
+    
+}
+.profile-image{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+
+
+h3{
+    border-left: 4px solid yellow;
+    padding-left: 10px;
+    margin: 50px 0px 20px;
+    letter-spacing: .5rem;
+}
+
+.contact span{
+    padding-right: 0px;
+}
+
+.education span{
+    padding: 20px;
+}
+.education h5{
+    color: #fadc8b;
+    padding-bottom: 10px;
+}
+.education h4{
+    font-weight: 400;
+    padding-bottom: 3px;
+
+}
+.education h6{
+    padding: 3px 0px;
+    font-weight: 300;
+}
+.expertise ul{
+    padding-left: 20px;
+    
+}
+.box{
+    width: 90%;
+    height: 5px;
+    border: .2px;
+    background-color: #fff;
+    position: relative;
+    margin: 5px 0px;
+}
+.box-fill{
+    
+    height: 5px;
+    position: absolute;
+    background-color:#b88e1a;
+    
+}
+
+.language{
+    margin-bottom: 80px;
+}
+/*Right sight content*/
+
+.right-sight-content{
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+h1{
+    font-size: 2.7rem;
+    margin-top: 50px;
+}
+h2{
+    letter-spacing: 1.2rem;
+    margin: 20px 0 90px;
+}
+
+.project h4{
+    padding: 10px 0 20px;
+}
+.project p{
+    padding: 5px 0px;
+}
+.sub-divide{
+    display: flex;
+    width: 100%;
+}
+.interest{
+    width: 50%;
+}
+.interest h4{
+    padding: 8px 0px;
+}
+.interest p{
+    margin: 15px 0px;
+}
+.social-media p{
+    margin-top: 5px;
+    padding: 5px 0px;
+}
+.social-media a{
+    color: rgb(68, 68, 68);
+    
+}
